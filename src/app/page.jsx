@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button, Divider, Flex, Row, Col } from "antd";
 import { Typography } from "antd";
 import Image from "next/image";
+import { InstagramFilled, FacebookFilled } from "@ant-design/icons";
 
 const { Title } = Typography;
 
@@ -14,7 +15,6 @@ export default function Home() {
       <Flex justify="center">
         <Title level={1}>Bem Garota !</Title>
       </Flex>
-
       <Flex justify="center">
         <Image
           src="/logo.png"
@@ -25,14 +25,9 @@ export default function Home() {
             border: "2px radius",
             borderRadius: "8px",
             marginRight: "10px",
-          }} 
+          }}
         />
       </Flex>
-
-      <Divider>
-        <a>By Gabrielle Brogio</a>
-      </Divider>
-
       <Row justify="center">
         <Col>
           <Link href="/masculino" passHref>
@@ -49,10 +44,15 @@ export default function Home() {
           </Link>
         </Col>
       </Row>
-
       <Divider />
-
-      <Divider />
+      <footer align="center">
+        <InstagramFilled />
+        <FacebookFilled />
+        
+        <Divider>
+          <a>By Gabrielle Brogio</a>
+        </Divider>
+      </footer>
     </div>
   );
 }

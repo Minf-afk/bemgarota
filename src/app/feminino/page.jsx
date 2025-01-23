@@ -2,7 +2,7 @@
 import React from "react";
 import { Button, Typography, Row, Col } from "antd";
 import Image from "next/image";
-
+import { Card } from "antd";
 
 const { Title } = Typography;
 
@@ -17,17 +17,19 @@ export default function Feminino() {
 
       <Row justify="space-around" align="middle">
         <Col>
-          <Image  
+          <Image
             src="/vestido-rosa.jpg"
             alt="Vestido Rosa"
             width={250}
             height={250}
           />
           <Row justify="center">
-        <Col>
-          <Button color="purple" type="primary">Comprar</Button>
-        </Col>
-      </Row>
+            <Col>
+              <Button color="purple" type="primary">
+                Comprar
+              </Button>
+            </Col>
+          </Row>
         </Col>
         <Col>
           <Image
@@ -37,10 +39,12 @@ export default function Feminino() {
             height={250}
           />
           <Row justify="center">
-        <Col>
-          <Button color="purple" type="primary">Comprar</Button>
-        </Col>
-      </Row>
+            <Col>
+              <Button color="purple" type="primary">
+                Comprar
+              </Button>
+            </Col>
+          </Row>
         </Col>
         <Col>
           <Image
@@ -50,12 +54,13 @@ export default function Feminino() {
             height={250}
           />
           <Row justify="center">
-        <Col>
-          <Button color="purple" type="primary">Comprar</Button>
+            <Col>
+              <Button color="purple" type="primary">
+                Comprar
+              </Button>
+            </Col>
+          </Row>
         </Col>
-      </Row>
-        </Col>
-
       </Row>
     </div>
   );
