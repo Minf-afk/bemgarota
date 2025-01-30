@@ -1,7 +1,9 @@
-body{
+body {
     background-color: rgb(178, 144, 178);
+    font-family: "Playwright IN", serif; /* Certifique-se de que o nome da fonte está correto */
 }
-a{
-    color: transparent
-    border 1px solid rgb(204, 159, 204);
+
+a {
+    color: transparent;
+    border: 1px solid rgb(204, 159, 204);
 }

@@ -12,8 +12,10 @@ const { Title } = Typography;
 export default function Home() {
   return (
     <div>
-      <Flex justify="center">
-        <Title level={1}>Bem Garota !</Title>
+       <Flex justify="center">
+        <Title level={1} style={{ fontFamily: 'Playwright IN, serif' }}>
+          Bem Garota !
+        </Title>
       </Flex>
       <Flex justify="center">
         <Image
